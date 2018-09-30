@@ -28,6 +28,11 @@ nav {
 	color: black;
 	display: block;
 }
+#PersonaBody #Menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
 #Menu ul li a:hover {
 	background-color: #40FF44;
 }
