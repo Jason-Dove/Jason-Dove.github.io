@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+nav {
+	width: 1560px;
+	font-size: 20px;
+}
+#Menu ul {
+	list-style: none;
+
+}
+#Menu ul li {
+	border-bottom: 15px ridge cyan;
+	border-top: 15px groove cyan;
+	width: 260px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+	position: relative;
+	background-color: #0060F4;
+}
+#Menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+#Menu ul li a:hover {
+	background-color: #40FF44;
+}
+#Menu ul ul {
+	display: none;
+	position: absolute;
+	top: 50px;
+}
+#Menu ul li:hover>ul {
+	display: block;
+}
+#Menu ul ul ul {
+	margin-left: 260px;
+	top: -15px;
+
+}
+
+.MyWebsite {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid black;
+}
+
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+h2 {
+text-align: center;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+font-size: 29px;
+margin: 15px;
+}
+h3 {
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin: 15px;
+}
+{
+		margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	background-image: url(assets/body-background1.jpg);
+	background-repeat: repeat-y;
+}
+#body {
+	background-image: url(assets/body-background.png);
+	margin-left: auto;
+	margin-right: auto;
+	width: 1560px;
+	display: block;
+}
+#Persona3Body {
+	background-image: url(assets/p3background.png);
+	background-repeat: round;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1560px;
+	display: block;
+}
+#Persona4Body {
+	background-image: url(assets/PersonaBackground.png);
+	margin-left: auto;
+	margin-right: auto;
+	width: 1560px;
+	display: block;
+}
+#Differences {
+	border: 5px dashed black;
+	border-radius: 25px;
+	font-weight: bolder;
+	color: black;
+	font-size: 20px;
+}
+#VideoLeft {
+	float: left;
+	text-align: left;
+	color: white;
+	margin: 10px;
+}
+.LeftVideo {
+	border: 3px solid black;
+}
+#VideoRight {
+	float: right;
+	text-align: right;
+	color: white;
+	margin: 10px;
+}
+.RightVideo {
+	border: 3px solid black;
+}
+#PreviousBanners {
+	float: left;
+	color: white;
+	width: 825px;
+	
+}
+p {
+	font-size: 20px;
+	margin: 15px;
+	margin-top: 0px;
+}
+.GamingBanner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+a:hover {
+	color: red;
+}
+
+.placeholder {
+	border-radius: 25px;
+	border: 10px double aqua;
+	background-color: black;
+	float: left;
+	margin-right: 5px;
+}
+h1.Me {
+	color: #008CFF;
+	padding: 5px 5px 5px 5px;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	margin: 15px;
+}
+h1.PersonalWebsite {
+	color: #9100FF;
+}
+.selected {
+	background-color:#68FF87;
+
+}
+.Persona {
+	border: 10px double black;
+	background-image: url(assets/p3background.png);
+	background-color: black;
+	color: black;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.Persona1 {
+	border: 10px double black;
+	background-image: url(assets/Persona1Heading.png);
+	color: #00FF15;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#RevelationsPersona {
+	border: 10px double green;
+	background-color: #074300;
+	border-radius: 25px;
+	margin-bottom: 25px;
+}
+#ShinMegamiTenseiPersona {
+	border: 10px double green;
+	background-color: #074300;
+}
+#Persona1Characters {
+	border-bottom: 10px dotted black;
+}
+#InnocentSinGameplay {
+	float: left;
+	margin: 15px;
+}
+#AllOutAttackCaption {
+	float: right;
+}
+#InnocentSin {
+	border: 10px double red;
+	background-color: #4B0001;
+	margin-bottom: 25px;
+}
+
+#EternalPunishment {
+	border-radius: 25px;
+	border: 10px double red;
+	background-color: #4B0001;
+}
+#Persona3 {
+
+	border: 10px double aqua;
+	background-color:#006664;
+}
+#Persona4 {
+	border: 10px double orange;
+	background-color: #743600;
+	margin-bottom: 45px;
+}
+#Golden {
+	border: 10px double gold;
+	background-color: #5E5E00;
+}
+#AllOutAttack {
+	display: block;
+	border: 10px double #9100FF;
+	background-color: #270053;
+	float: right;
+	margin-left: 25px;
+}
+#PersonaQ {
+	border: 10px double #6900FF;
+	background-color: #1B0032;
+	border-radius: 25px;
+	margin-bottom: 45px;
+}
+#Persona3Gamplay {
+	float: left;
+	margin: 15px;
+	height: 250px;
+	display: block;
+}
+#Mitsuo {
+	border-radius: 25px;
+	border: 10px double black;
+	background-color: #2B2B2B;
+}
+#Saki1 {
+	border-radius: 25px;
+	border: 10px double black;
+	background-color: #666666;	
+}
+#Yamano1 {
+	border-radius: 25px;
+	border: 10px double white;
+	background-color: #B9B9B9;
+}
+#Igor {
+	border: 10px double aqua;
+	background-color: blue;
+	border-radius: 25px;
+}
+#Margaret {
+	border: 10px double aqua;
+	background-color: blue;
+	border-radius: 25px;
+}
+#Yu1 {
+	border: 10px double gray;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+#Yosuke1 {
+	border: 10px double orange;
+	border-radius: 25px;
+	background-color: #633100;
+}
+#Chie1 {
+	border: 10px double #2AFF00;
+	border-radius: 25px;
+	background-color: #123F00;
+}
+#Yukiko1 {
+	border: 10px double red;
+	border-radius: 25px;
+	background-color:#570001;
+}
+#Kanji1 {
+	border: 10px double #A100FF;
+	border-radius: 25px;
+	background-color: #22003D
+}
+#Rise1 {
+	border: 10px double #FD00C5;
+	border-radius: 25px;
+	background-color: purple;
+}
+#Naoto1 {
+	border: 10px double aqua;
+	border-radius: 25px;
+	background-color: blue;
+}
+#Teddie1 {
+	border: 10px double red;
+	border-radius: 25px;
+	background-color: #510001
+}
+#Maki1 {
+	border: 10px double #00B9B9;
+	border-radius: 25px;
+	background-color: #FF0086;
+}
+#Masao1 {
+	border: 10px double aqua;
+	border-radius: 25px;
+	background-color: yellow;
+}
+#Kei1 {
+	border: 10px double blue;
+	border-radius: 25px;
+	background-color: gray;
+}
+#Yuka1 {
+	border: 10px double blue;
+	border-radius: 25px;
+	background-color: yellow;
+}
+#Yukino1 {
+	border: 10px double blue;
+	border-radius: 25px;
+	background-color: aqua
+}
+#VelvetRoom {
+	background-image: url(assets/VelvetRoom.png);
+	border: 10px solid #4900FF;
+	background-repeat: round;
+	color: #FF0004;
+	font-weight: bold;
+}
+#P4Characters {
+	border-radius: 25px;
+	border: 10px double black;
+	background-color: aqua;
+}
+#InvestigationTeam {
+	border-bottom: 10px dotted black;
+}
+#PersonaBody {
+	background-image: url(assets/Persona1Background.jpg.png);
+	margin-left: auto;
+	margin-right: auto;
+	width: 1560px;
+	display: block;
+}
+#PersonaBody a {
+	color: orange;
+}
+#PersonaBody a:hover {
+	color: red;
+}
+#PersonaBody Nav ul li a {
+	color: black;
+}
+	
+}
+#Persona2Characters {
+	border-bottom: 10px dotted black;
+	
+}
+#MarkComparison {
+	float: right;
+	display: block;
+}
+#PersonaVideo {
+	width:400px;
+	height:225px;
+}
+#PlotVideo {
+	float: left;
+	margin:15px;
+}
+#Persona1Characters a {
+	color: orange;
+}
+#Plot a {
+	color: orange;
+}
+#TheDarkHour {
+	background-image: url(assets/Tartarus1.jpg);
+	border: 10px solid black;
+}
+#DarkHourClock {
+	float: right;
+}
+#SEES {
+	border: 10px double #00EBFF;
+	background-color: blue;
+}
+.SmallBanner {
+	margin: 10px;
+	border: 3px solid black;
+}
+.VelvetRoomTitle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3x dashed #6700CB;
+}
+.VelvetRoomVideo {
+	float: right;
+	margin: 15px 15px 1px 15px;
+}
+.CaptionRight {
+	text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+.CaptionLeft {
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+.FloatLeft {
+	float: left;
+	margin: 15px;
+}
+.FloatRight {
+	float: right;
+	margin: 15px;
+}
+.red {
+	color: red;
+}
+.green {
+	color: #00FF00;
+}
+.ShinMegamiTensei {
+	color:#7C7C7C;
+}
+.blue {
+	color:#00FBFF;
+}
+.yellow {
+	color: gold;
+}
+.Copyright {
+	font-style: italic;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.orange {
+	color: orange;
+}
+.purple {
+	color: #8100FF
+}
+.black {
+	color: black;
+}
+.white {
+	color: white;
+}
+.darkblue {
+	color: blue;
+}
+.bold {
+	font-weight: bold;
+}
+.Gradient {
+	background: linear-gradient(to right, #00ffff 45%, #ffff00 55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.underline {
+	border-bottom: 4px dashed purple;
+	margin-left: 450px;
+	margin-right: 450px;
+}
+.Persona4Synopsis {
+	margin-right: 550px;
+	background-image: url(assets/p3background.png);
+	border: 10px double black;
+	color: black;
+}
+.TextFloatRight {
+	text-align: right;
+	color: black;
+	font-weight: bold;
+}
+.Persona4Background {
+	border: 10px double black;
+	background-image: url(assets/PersonaBackground.png);
+	margin: 15px;
+	color: darkcyan;
+	font-weight: 1500;
+}
+.DifferencesSubheading {
+	border-bottom: 3px dashed purple;
+	margin-left: 15px;
+	margin-right: 1425px;
+	text-align: center;
+}
+
