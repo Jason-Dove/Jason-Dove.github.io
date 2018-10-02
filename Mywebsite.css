@@ -12,6 +12,10 @@ nav {
 	list-style: none;
 
 }
+.ConstructionText {
+	text-align: center;
+	font-size: 30px;
+}
 #Menu ul li {
 	border-bottom: 15px ridge cyan;
 	border-top: 15px groove cyan;
@@ -55,6 +59,10 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	border: 10px solid black;
+}
+.ConstructionText {
+	text-align: center;
+	font-size: 30px;
 }
 
 
