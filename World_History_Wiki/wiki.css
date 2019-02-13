@@ -1,0 +1,112 @@
+/* CSS Document */
+html, body {
+	height: 75%
+}
+body {
+	font-family: sans-serif;
+}
+#topBanner {
+height: 50%;
+background-image: url(assets/World-History-Banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+.BannerText {
+	font-size: 50px;
+	text-align: center;
+	font-family: Arial;
+	color: white;
+}
+.BannerUnderline {
+	color: #B99139;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 700;
+	
+}
+.text {
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-right: 20px;
+	word-spacing: 1px;
+		font-size: 18px;
+}
+.LeftFloat {
+	float: left;
+	padding: 10px;
+}
+h2 {
+	text-align: center;
+}
+#body {
+	width: 1200px;
+	margin: 0 auto;;
+}
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav a.selected {
+	color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+span.gray {background-color: darkgray;
+	width: 5px;}
+.Navigation {
+	color: white;
+	text-align: center;
+	font-size: 19px
+}
+.RightFloat {
+	float: right;
+}
+#Locke {
+	position: absolute;
+	width: 700px;
+	left: 100px;
+}
+#Hobbes {
+	position: absolute;
+	width: 700px;
+	right: 100px;
+}
+.gold {
+	color: darkgoldenrod;
+}
