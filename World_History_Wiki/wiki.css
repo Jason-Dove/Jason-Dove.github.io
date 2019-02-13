@@ -52,11 +52,12 @@ h2 {
   position: fixed; 
   z-index: 1; 
   top: 0; 
-  left: 0;
+  left: -10px;
   background-color: #111;
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s;
+  border-right: 10px groove #333
 }
 
 .sidenav a {
@@ -70,6 +71,8 @@ h2 {
 
 .sidenav a:hover {
   color: #f1f1f1;
+  background-color: #171717;
+  font-size: 25px;
 }
 .sidenav a.selected {
 	color: white;
