@@ -50,3 +50,10 @@ h2 {
 .subheading {
 	font-size: 45px;
 }
+#WD_PersonalWebsite {
+	background-image: url("assets/finalBanner.jpg");
+	height: 291px;
+	border-radius: 25px;
+	border: 10px solid black;
+
+}
