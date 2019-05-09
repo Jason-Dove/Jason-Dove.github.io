@@ -124,19 +124,33 @@ h3 {
 }
 #favMusic {
 	background-image: url(assets/musicBackground.png);
-	border-top: 5px ridge blue;
+	border-top: 5px groove blue;
 	border-bottom: 5px ridge blue;
 }
 #favMovie {
 	background-image: url(assets/movieBackground.jpg);
 	border-top: 5px groove #4BFF81;
-	border-bottom: 5px groove #4BFF81;
-		
+	border-bottom: 5px ridge #4BFF81;
+	color: red;	
 	}
+#favMovie h1, h2, h3 {
+	color: black;
+}
+#favGame {
+	background-image: url("assets/gameBackground.jpg");
+	color: #FF00A6;
+}
+#favGame h1, h2, h3 {
+	color: black;
 }
 
 /* all classes go here */
 
+.icon {
+	float: right;
+	padding-right: 3px;
+	
+}
 .body_text {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 18px;
