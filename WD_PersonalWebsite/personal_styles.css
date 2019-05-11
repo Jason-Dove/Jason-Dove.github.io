@@ -23,9 +23,6 @@ h3 {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	margin-top: 0px;
 }
-\2022 {
-	font-size: 7px;
-}
 
 /* all id's go here */
 
@@ -124,15 +121,19 @@ h3 {
 }
 #favMusic {
 	background-image: url(assets/musicBackground.png);
-	border-top: 5px ridge blue;
+	border-top: 5px groove blue;
 	border-bottom: 5px ridge blue;
 }
 #favMovie {
 	background-image: url(assets/movieBackground.jpg);
 	border-top: 5px groove #4BFF81;
-	border-bottom: 5px groove #4BFF81;
+	border-bottom: 5px ridge #4BFF81;
 		
 	}
+#favGame {
+	background-image: url("assets/gameBackground.jpg");
+	border-top: 5px groove #FF00BE;
+	border-bottom: 5px ridge #FF00BE;
 }
 
 /* all classes go here */
