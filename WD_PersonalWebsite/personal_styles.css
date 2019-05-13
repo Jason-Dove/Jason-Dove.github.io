@@ -23,7 +23,6 @@ h3 {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	margin-top: 0px;
 }
-
 /* all id's go here */
 
 #body {
@@ -39,6 +38,7 @@ h3 {
 	border:5px solid black;
 	border-top: none;
 	border-bottom: none;
+	text-align: left;
 	
 }
 #mainBanner {
@@ -131,11 +131,34 @@ h3 {
 		
 	}
 #favGame {
-	background-image: url("assets/gameBackground.jpg");
+	background-image: url("assets/overwatchBackground.jpg");
 	border-top: 5px groove #FF00BE;
 	border-bottom: 5px ridge #FF00BE;
+	color: #AFAFAF;
 }
-
+#favGame ul {
+	list-style: none;
+}
+#Support {
+	float: left;
+	margin: 5px;
+	width: 200px;
+}
+#Tank {
+	margin: 5px;
+	float: right;
+	width: 280px;
+}
+#DPS {
+	float: left;
+	margin-left: auto;
+	margin-right:1 auto;
+	width: 300px;
+}
+#Feedback {
+	margin: 0px auto 0px auto;
+	width: 1000px;
+}
 /* all classes go here */
 
 .body_text {
@@ -179,4 +202,7 @@ h3 {
 	float: right;
 	margin: 10px;
 	border: 3px solid black;
+}
+.icon {
+	float: right;
 }
