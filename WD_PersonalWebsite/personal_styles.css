@@ -141,19 +141,21 @@ h3 {
 }
 #Support {
 	float: left;
-	margin: 5px;
-	width: 200px;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 #Tank {
-	margin: 5px;
-	float: right;
-	width: 280px;
+	float: left;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 #DPS {
 	float: left;
-	margin-left: auto;
-	margin-right:1 auto;
 	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 #Feedback {
 	margin: 0px auto 0px auto;
