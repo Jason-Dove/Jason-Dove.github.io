@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Personal Website - Corey Sadler</title>
+<title>Leave Your Feedback!</title>
 <link href="personal_styles.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -10,7 +10,6 @@
  <div id="mySidenav" class="sidenav">
    <a href="index.html" id="home">Home<img class="icon" src="https://img.icons8.com/metro/18/000000/home.png"></a>
    <a href="family.html" id="family">Family<img class="icon" src="https://img.icons8.com/metro/18/000000/family.png"></a>
-   <a href="journal.html" id="journal">Journal<img class="icon" src="https://img.icons8.com/metro/20/000000/book.png"></a>
    <a href="spotlight.html" id="spotlight">Spotlight<img class="icon" src="https://img.icons8.com/metro/26/000000/searchlight.png"></a>
    <a href="career.html" id="career">Career<img class="icon" src="https://img.icons8.com/metro/20/000000/support.png"></a>
    <a href="review.html" id="review">Review<img class="icon" src="https://img.icons8.com/metro/26/000000/thumb-up.png"></a>
@@ -19,69 +18,98 @@
    <a href="cause.html" id="cause">Cause<img class="icon" src="https://img.icons8.com/metro/26/000000/question-mark.png"></a>
 	</div>
 <div id="body">
-	<center><p><img id="mainBanner" src="assets/finalBanner.jpg" alt=""/></p></center>
+	<center><p><img src="assets/finalBanner.jpg" alt="" usemap="#mainBannerMap" id="mainBanner"/>
+      <map name="mainBannerMap">
+          <area shape="rect" coords="1077,45,1291,229" href="favorites.html#favGame">
+      </map>
+		</p>
+  </center>
 	<h1>Give Me Your Feedback</h1>
-  <table width="200" border="1" id="Feedback">
-	  <caption>
-	    Leave your feedback here!
-      </caption>
-	  <tbody>
-	    <tr>
-	      <th width="416" scope="col">Did you enjoy this website?</th>
-	      <th width="234" scope="col"><input type="radio" name="enjoy" value="yes">Yes<br>
-	        <input type="radio" name="enjoy" value="no">No</th>
-	      <th width="328" scope="col">Tell me specifically why you did/didn't like this website: <input type="text"></th>
-        </tr>
-	    <tr>
-	      <th scope="row">What pages did you like/not like?</th>
-	      <td>
-		Home:<input type="radio" name="likeHome" value="yes">Like
-          <input type="radio" name="likeHome" value="no">Dislike
- 		<br>
- 		Family:<input type="radio" name="likeFamily" value="yes">Like
-        <input type="radio" name="likeFamily" value="no">Dislike
-		<br>
-		Journal:<input type="radio" name="likeJournal" value="yes">Like
-          <input type="radio" name="likeJournal" value="no">Dislike
- 		<br>
- 		Spotlight:<input type="radio" name="likeFSpotlight" value="yes">Like
-        <input type="radio" name="likeSpotlight" value="no">Dislike
-		<br>
-		Career:
-		<input type="radio" name="likeCareer" value="yes">
-		Like
-        <input type="radio" name="likeCareer" value="no">Dislike
- 		<br>
- 		Review:
- 		<input type="radio" name="likeReview" value="yes">
- 		Like
-        <input type="radio" name="likeReview" value="no">Dislike
-		<br>
-		Survey:
-		<input type="radio" name="likeSurvey" value="yes">Like
-          <input type="radio" name="likeSurvey" value="no">Dislike
- 		<br>
- 		Favorites:
- 		<input type="radio" name="likeFavorites" value="yes">Like
-        <input type="radio" name="likeFavorites" value="no">Dislike
-		<br>
-		Cause:
-		<input type="radio" name="likeCause" value="yes">
-		Like
-        <input type="radio" name="likeCause" value="no">Dislike
-		</td>
-	    <td>What did you like/not like about these pages?<br>
-		<input type="text"></td>
-        </tr>
-	    <tr>
-	      <th scope="row">&nbsp;</th>
-	      <td>&nbsp;</td>
-	      <td><input type="submit"><input type="reset"></td>
-        </tr>
-      </tbody>
-  </table>
+  <form>
+	<table width="900" id="feedback" align="center">
+  <tbody>
+    <tr>
+      <th colspan="4" style="text-align: center" scope="col">Leave me a comment telling me what you thought of my website! It will be shown to me as a comment, and I can improve it based on what you tell me!</th>
+    </tr>
+    <tr>
+      <th colspan="4" scope="col"><hr size="5"></th>
+      </tr>
+    <tr>
+      <th width="109" height="24" class="align-center" scope="row">First Name</th>
+      <td width="212"><input name="textfield" type="text" id="textfield" size="30" maxlength="60"></td>
+      <td width="313"><strong>Did you enjoy my website?</strong></td>
+      <td width="246"><p>
+        <label>
+          <input type="radio" name="enjoy" value="yes" id="enjoy_0">
+          yes</label>
+        <label>
+          |
+          <input type="radio" name="enjoy" value="no" id="enjoy_1">
+          no</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <th height="25" class="align-center" scope="row">Last Name</th>
+      <td><input name="textfield2" type="text" id="textfield2" size="30" maxlength="60"></td>
+      <td width="313"><strong class="align-left">On a scale of 1-5, how would you rate my website?</strong></td>
+      <td width="246"><p>
+        <label>
+          <input type="radio" name="1-5" value="1" id="1-5_0">
+          1</label>
+        <label>
+          |
+          <input type="radio" name="1-5" value="2" id="1-5_1">
+          2</label>
+        |
+        <label>
+          <input type="radio" name="1-5" value="3" id="1-5_2">
+          3</label>
+        |
+        <label>
+          <input type="radio" name="1-5" value="4" id="1-5_3">
+          4</label>
+        |
+        <label>
+          <input type="radio" name="1-5" value="5" id="1-5_4">
+          5</label>
+        <br>
+      </p></td>
+      </tr>
+    <tr>
+      <th class="align-center" scope="row">Display Name (optional)</th>
+      <td><input name="textfield3" type="text" id="textfield3" size="30" maxlength="60"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">&nbsp;</th>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">&nbsp;</th>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">&nbsp;</th>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <th colspan="4" scope="row"><hr size="5"></th>
+      </tr>
+    <tr>
+      <th colspan="4" scope="row"><input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset"></th>
+    </tr>
+  </tbody>
+</table>
+
+	</form>
 	<p>&nbsp;</p>
-	<h1>Note: This page will be receiving an overhaul. Don't get used to this layout.</h1>
+	<h1>&nbsp;                                                                         </h1>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
