@@ -12,6 +12,18 @@ h1 {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	
 }
+h1.intro {
+	text-shadow: 2px 2px 2px #1A1A1A;
+}
+h1.family {
+	text-shadow: 2px 2px 2px #575335;
+}
+h1.sisters {
+	text-shadow: 2px 2px 2px #573553;
+}
+h1.career {
+	text-shadow: 2px 2px 2px #10004A;
+}
 h2 {
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -119,18 +131,24 @@ h3 {
 	background-image: url(assets/musicBackground.png);
 	border-top: 5px groove blue;
 	border-bottom: 5px ridge blue;
+	transition: 1s;
+	background-repeat: round;
 }
 #favMovie {
 	background-image: url(assets/movieBackground.jpg);
 	border-top: 5px groove #4BFF81;
 	border-bottom: 5px ridge #4BFF81;
+	transition: 1s;
+	background-repeat: round;
 		
 	}
 #favGame {
 	background-image: url("assets/overwatchBackground.jpg");
 	border-top: 5px groove #FF00BE;
+	background-repeat: round;
 	border-bottom: 5px ridge #FF00BE;
-	color: #AFAFAF;
+	text-shadow: 1px 1px 2px white;
+	transition: 1s;
 }
 #favGame ul {
 	list-style: none;
@@ -162,7 +180,46 @@ h3 {
 	background-repeat: round;
 	border-top: 5px groove #4BFF81;
 	border-bottom: 5px ridge #4BFF81;
-	color: white;
+	text-shadow: 1px 1px 2px white;
+	transition: 1s;
+}
+#bverage {
+	background-image: url("assets/coffee-background.jpg");
+	background-repeat: round;
+	border-top: 7px groove #3A3A3A;
+	border-bottom: 7px ridge #3A3A3A;
+	text-shadow: 1px 1px 2px white;
+}
+#food {
+	background-image: url("assets/food-background.jpg");
+	border-top: 7px groove #3D2519;
+	border-bottom: 7px ridge #3D2519;
+	background-repeat: round;
+}
+#anime {
+	background-image: url("assets/ua.jpg");
+	background-repeat: round;
+	border-top: 7px groove blue;
+	border-bottom: 7px ridge blue;
+	text-shadow: 1px 1px 2px white;
+}
+#pets {
+	border-top: 7px groove slategray;
+	border-bottom: 7px ridge slategray;
+	background-image: url("assets/pets-background.jpg");
+	background-repeat: round;
+}
+#console {
+	background-image: url("assets/xbox-background.jpg");
+	border-top: 7px groove #4BFF81;
+	border-bottom: 7px ridge #4BFF81;
+	background-repeat: round;
+	text-shadow: 1px 1px 2px white;
+}
+#genre {
+	background-image: url("assets/brick.jpg");
+	background-repeat: round;
+	text-shadow: 1px 1px 2px white;	
 }
 #feedback {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -182,12 +239,12 @@ h3 {
 }
 .img_float_left {
 	float: left;
-	margin: 10px;
+	margin: 20px;
 	
 }
 .img_float_left_border {
 	float: left;
-	margin: 10px;
+	margin: 20px;
 	border: 3px solid black;
 }
 .borderSolid {
@@ -205,11 +262,11 @@ h3 {
 }
 .img_float_right {
 	float: right;
-	margin: 10px;
+	margin: 20px;
 }
 .img_float_right_border {
 	float: right;
-	margin: 10px;
+	margin: 20px;
 	border: 3px solid black;
 }
 .icon {
@@ -220,4 +277,41 @@ h3 {
 }
 .align-center {
 	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;	
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #00FF9B;
+  width: 680px;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+.tab button:hover {
+  background-color: #00E189;
+}
+.tab button.active {
+  background-color: #00A664;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 1s;
+} 
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

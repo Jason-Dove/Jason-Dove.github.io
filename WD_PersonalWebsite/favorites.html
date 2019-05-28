@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Me Personal Favs</title>
 <link href="personal_styles.css" rel="stylesheet" type="text/css">
+<script src="test.js"></script>
 </head>
 
 <body>
@@ -25,15 +26,28 @@
 		</p>
 		</center>
   <h1>My Favorite Things!!</h1>
-  <section id="favMusic">
+  <div class="tab">
+  <button class="tablinks" onclick="openThing(event, 'favMusic')" id="defaultOpen">Music</button>
+  <button class="tablinks" onclick="openThing(event, 'favMovie')">Movie</button>
+  <button class="tablinks" onclick="openThing(event, 'favGame')">Game</button>
+  <button class="tablinks" onclick="openThing(event, 'Hobby')">Hobby</button>
+  <button class="tablinks" onclick="openThing(event, 'bverage')">Beverages</button>
+  <button class="tablinks" onclick="openThing(event, 'food')">Food</button>
+  <button class="tablinks" onclick="openThing(event, 'anime')">Anime</button>
+  <button class="tablinks" onclick="openThing(event, 'pets')">Pets</button>
+  <button class="tablinks" onclick="openThing(event, 'console')">Console</button>
+  <button class="tablinks" onclick="openThing(event, 'genre')">Genre</button>
+	</div>
+<br>
+  <section id="favMusic" class="tabcontent">
 		<figure class="img_float_left"><img src="assets/Makoto.png" alt="Boy wearing headphones" class="borderSolid">
 		<p class="body_text">&nbsp;</p>
 		<p class="body_text"><br>
 		  </p>
 </figure>
 	  <h1 id="Music">Music</h1>
-	  <p class="body_text">Listening to music is easily a thing I do 90% of the time. Be it I'm not doing anything, or I am doing something but I need to focus, there's a good chance that I'm going to be listening to music.	  <br>
-	  </p>
+	  <p class="body_text">Listening to music is easily a thing I do 90% of the time. Be it I'm not doing anything, or I</p>
+	  <p class="body_text">am doing something but I need to focus, there's a good chance that I'm going to be listening to music.</p>
 	  <p class="body_text">Some of my favorite tracks include:</p>
 	  <ul class="listUnordered">
 	    <li>Carrie Underwood - Blown Away</li>
@@ -49,24 +63,36 @@
 	  <p>&nbsp;</p>
 	  <p>&nbsp;</p>
 	</section>
-  <br>
-  <section id="favMovie">
+  <section id="favMovie" class="tabcontent">
 	<img class="img_float_right_border" alt="Persona 3 Movie Cover" src="assets/p3Movie.png">
 	<h1 class="Movie">My Favorite Movie</h1>
 	<h3>Persona 3: The Movie</h3>
-	<p class="body_text">While it's technically a series of 4 movies, they're all based off of the same game: <em>Shin Megami Tensei: Persona 3</em>. The story follows Makoto Yuki, a high school student who lost his parents in an accident 10 years ago, who learns there is a period of time hidden between one day and the next. This period is known as the Dark Hour, a time when monsters called Shadows appear. He soon learns how to fight against Shadows that threaten the world from the tower of Tartarus, the place where the Shadows normally reside.</p>
-	<p class="body_text">There are so many things I love about this movie, most of which I won't go too in depth about, but I can give a brief explanation for. The first thing being the animation. You can actually see the characters in high quality, whereas you couldn't in the game as it was slightly older. Another aspect I like is the depiction of characters in situations that would make sense for them, to flesh them out in a unique way that we didn't see in the game. the only real &quot;dislike&quot; I have about the movies is that the story had to be cut in many ways that lots some of the original feel that we felt in the game.</p>
+	<p class="body_text">While it's technically a series of 4 movies, they're all based off of the same game: <em>Shin Megami Tensei: Persona 3</em>. </p>
+	<p class="body_text">The story follows Makoto Yuki, a high school student who lost his parents in an accident 10 years ago, who learns </p>
+	<p class="body_text">there is a period of time hidden between one day and the next. This period is known as the Dark Hour, a time when</p>
+	<p class="body_text"> monsters called Shadows appear. He soon learns how to fight against Shadows that threaten the world from the </p>
+	<p class="body_text">tower of Tartarus, the place where the Shadows normally reside.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">There are so many things I love about this movie, most of which I won't go too in depth about, but I can give a brief </p>
+	<p class="body_text">explanation for. The first thing being the animation. You can actually see the characters in high quality, whereas</p>
+	<p class="body_text"> you couldn't in the game as it was slightly older. Another aspect I like is the depiction of characters in situations that</p>
+	<p class="body_text"> would make sense for them, to flesh them out in a unique way that we didn't see in the game. the only real &quot;dislike&quot;</p>
+	<p class="body_text"> I have about the movies is that the story had to be cut in many ways that lost some of the original feel that we felt in</p>
+	<p class="body_text"> the game.</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
   </section>
-	<br>
-  <section id="favGame">
+  <section id="favGame" class="tabcontent">
 	  <h1>Favorite Game</h1>
     <h3>Overwatch <img src="assets/81dhc76y.png"></h3>
 	 <img src="assets/OverwatchImage.jpg" class="img_float_right_border">
-    <p class="body_text">Overwatch is a team-based multiplayer first-person shooter developed and published by Blizzard Entertainment. It was released on May 24, 2016 for PlayStation 4, Xbox One, and Windows. In every game, players into two teams of six, with each player selecting from a roster of 30 heroes in one of three classes: Healers, DPS, and Tanks. Every character also has their own unique set of abilities, giving the player a different experience for each character they play.</p>
+    <p class="body_text">Overwatch is a team-based multiplayer first-person shooter developed and published by Blizzard</p>
+    <p class="body_text"> Entertainment. It was released on May 24, 2016 for PlayStation 4, Xbox One, and Windows. In</p>
+    <p class="body_text"> every game, players into two teams of six, with each player selecting from a roster of 30 heroes in</p>
+    <p class="body_text"> one of three classes: Healers, DPS, and Tanks. Every character also has their own unique set of </p>
+    <p class="body_text">abilities, giving the player a different experience for each character they play.</p>
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
@@ -128,30 +154,130 @@
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
   </section>
-<p></p>
-<section id="Hobby">
+<section id="Hobby" class="tabcontent">
 	<h1>Favorite Hobby</h1>
 	<img src="assets/bike.png" width="382" height="236" class="img_float_left">
-	<p class="body_text">It's no secret aming my friends that I love biking. Any chance I get I will go for a quick ride either to go somewhere, get something done, or even just for recreation. Fun fact: The most bike rides I've went on in one day is 6 (at the time of me writing this at least). This activity of mine has actually started a... unique joke within my friend group. Because I bike so much, my calf muscles have become very well-defined, so my friends joke about me having &quot;turtles for legs&quot;. (I don't get it either. Just go with it).</p>
+	<p class="body_text">It's no secret aming my friends that I love biking. Any chance I get I will go for a quick ride either to go</p>
+	<p class="body_text"> somewhere, get something done, or even just for recreation. Fun fact: The most bike rides I've went on in</p>
+	<p class="body_text"> one day is 6 (at the time of me writing this at least). This activity of mine has actually started a... unique joke</p>
+	<p class="body_text">within my friend group. Because I bike so much, my calf muscles have become very well-defined, so my </p>
+	<p class="body_text">friends joke about me having &quot;turtles for legs&quot;. (I don't get it either. Just go with it).</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	<p class="body_text">&nbsp;</p>
 	</section>
-	<p></p>
-  <section id="bverage">
+  <section id="bverage" class="tabcontent">
 	<h1>Favorite Beverages</h1>
 	<h3>Coffee and Sprite</h3>
-	<img src="assets/coffee.png" width="273" height="227" class="img_float_left">
-	<p class="body_text">I am very much open about my opinion on coffee. I love the stuff. Ask any of my friends and they will tell you just how much I love coffee, and how often I make that fact clear.</p>
+	<img src="assets/coffee.png" class="img_float_left">
+	<p class="body_text">I am very much open about my opinion on coffee. I love the stuff. Ask any of my friends and they will tell you just how</p>
+	<p class="body_text"> much I love coffee, and how often I make that fact clear. They'll all tell you the same thing: "He is in love with it." The same </p>
+	<p class="body_text">is true with sprite. They're both my go-to drinks when I don't know what else to have. I know that there'e definitely better </p>
+	<p class="body_text">(and healthier) choices, but I do try to have them in moderation.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+	</section>
+  <section id="food" class="tabcontent">
+	<img src="assets/food.jpg" width="287" height="198" class="img_float_right_border">
+	<h1>Tuna Noodle Casserole</h1>
+	<p class="body_text">As soon as i tried this dish once as a kid, I instantly fell in love with it. The flavor is excellent, the texture is just at that</p>
+	<p class="body_text"> right mix between chewy ad crunchy, and all around it's very balanced on its distribution of ingredients. Every night that </p>
+	<p class="body_text">we have this for dinner, I can't wait to get to try it again. Even though it's still the same flavor that I've always known, it </p>
+	<p class="body_text">still comes off as a kind of surprise, kind of like "wow, there's this minor detail that i never noticed!" </p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	</section>
+	<section id="anime" class="tabcontent">
+	<img src="assets/mha.jpg" class="img_float_left_border">
+	<h1>My Hero Academia</h1>
+	<p class="body_text">My Hero Academia takes place in a society where having "super powers" has become the norm. The story follows Izuku</p>
+	<p class="body_text"> "Deku" Midoriya, who is a part of the 20% of the population that unfortunately weren't lucky enough to be born with a quirk.</p>
+	<p class="body_text"> Despite this, he has made it his life goal to be a hero even if he doesn't have a power. Because of this, he is bullied by others</p>
+	<p class="body_text"> around him with powers and looked at with pity by those without powers. Midoriya is resentful towards these circumstances, </p>
+	<p class="body_text">but still chooses to not let others get to him (as much as he can at least). One day, however, Midoriya comes across All </p>
+	<p class="body_text">Might, the world's current number 1 hero. After seeing Midoriya's potential in a villain attack, All Might decides to pass down</p>
+	<p class="body_text"> his quirk to Midoriya, much to Midoriya's overexagerated happiness.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">As each season progresses, the series gets more and more intense. A lot of people consider it the best anime of this </p>
+	<p class="body_text">generation so far, due the the pacing, the characterization, character development, concepts, situations, ships (because </p>
+	<p class="body_text">fanboys and fangirls be crazy), etc. It presently has 3 seasons aired, one movie, titled "The Two Heroes", and they are currently making season 4, which they</p>
+	<p class="body_text"> announced in-episode in the final episode of season 3.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	</section>
+	<section id="pets" class="tabcontent">
+	<img src="assets/Fozzie.jpg" width="161" height="214" class="img_float_left_border">
+	<h1>Fozzie</h1>
+	<p class="body_text">Fozzie is currently our youngest cat. He is just under a year old, and is actually big for his age. He is very playful, but kind of a jerk at</p>
+	<p class="body_text"> the same time. By this, I mean that he almost always gets into fights with other cats, specifically Holly, Millie, and Joxi.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp; </p>
+	<p class="body_text">&nbsp;</p>
+	<p><img src="assets/Holly.jpg" width="161" height="214" class="img_float_right_border"></p>
+	<p>&nbsp; </p>
+	<h1>Holly</h1>
+	<p class="body_text">Holly is a black cat. Although she is shy when she first sees you, she is very friendly once she gets to know you. By friendly, I mean very</p>
+	<p class="body_text"> snuggly, so much that she will literally roll into you and just curl up. We know her for her trademark loud purring to signify that she's </p>
+	<p class="body_text">happy. Her and Millie are practically sisters. <img src="assets/Millie.jpg" width="161" height="214" class="img_float_left_border">	</p>
+	<h1>&nbsp;</h1>
+	<h1>&nbsp;</h1>
+	<h1>Millie</h1>
+	<p class="body_text">Millie is a calico cat. She was adopted from a shelter that wasn't the best quality. She was covered in fleas, and was in desperate need</p>
+	<p class="body_text"> for a bath. After she was cleaned up, she became one of out friendliest cats, next to Holly. While she isn't as snuggly as Holly, she is </p>
+	<p class="body_text">well known for showing her affection in similar ways, such as her loud purring, following you around, and sitting by you. Her and Holly </p>
+	<p class="body_text">are practically sisters.</p>
+	</section>
+  <section id="console" class="tabcontent">
+	<h1>Xbox 1</h1>
+	<img src="assets/xbox.png" class="img_float_left">
+	<p class="body_text">I'm sure we all know what an Xbox is at this point. I never really was into console gaming too much, as I didn't find that playstyle as</p>
+	<p class="body_text"> entertaining as others, until my friend got me addicted to Overwatch for xbox. Anytime I'm not busy, and/or anytime my friends ask </p>
+	<p class="body_text">me to get on, it's a one-way trip to whatever game we're playing this time.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	</section>
+  <section id="genre" class="tabcontent">
+	<h1>Murder Mysteries</h1>
+	<p class="body_text">Murder mysteries have always been a guilty pleasure of mine. Despite my constant saying that nothing good ever comes on TV anymore, I do love watching the </p>
+	<p class="body_text">live murder mysteries at the time. Dateline, Forensic files, I (almost) got away with it, etc. I don't know what it is about them, but they all give me the same feeling </p>
+	<p class="body_text">of satisfaction.</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
 	</section>
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+    <p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
+	<p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
     <p class="body_text">&nbsp;</p>
 	</div>
-
+<script>
+document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>

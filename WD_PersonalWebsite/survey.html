@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -26,19 +27,19 @@
   </center>
 	<h1>Give Me Your Feedback</h1>
   <form>
-	<table width="900" id="feedback" align="center">
-  <tbody>
+	<table width="1053" id="feedback" align="center">
+  <tbody class="body_text">
     <tr>
-      <th colspan="4" style="text-align: center" scope="col">Leave me a comment telling me what you thought of my website! It will be shown to me as a comment, and I can improve it based on what you tell me!</th>
+      <th colspan="6" style="text-align: center" scope="col">Leave me a comment telling me what you thought of my website! It will be shown to me, and I can improve this website based on what you tell me!</th>
     </tr>
     <tr>
-      <th colspan="4" scope="col"><hr size="5"></th>
+      <th colspan="6" scope="col"><hr size="5"></th>
       </tr>
     <tr>
-      <th width="109" height="24" class="align-center" scope="row">First Name</th>
-      <td width="212"><input name="textfield" type="text" id="textfield" size="30" maxlength="60"></td>
-      <td width="313"><strong>Did you enjoy my website?</strong></td>
-      <td width="246"><p>
+      <td width="289" height="24" class="align-center" scope="row">First Name</td>
+      <td width="243"><input name="textfield" type="text" id="textfield" placeholder="e.g. John" size="30" maxlength="60"></td>
+      <td width="199">Did you enjoy my website?</td>
+      <td colspan="3"><p>
         <label>
           <input type="radio" name="enjoy" value="yes" id="enjoy_0">
           yes</label>
@@ -50,10 +51,10 @@
       </p></td>
     </tr>
     <tr>
-      <th height="25" class="align-center" scope="row">Last Name</th>
-      <td><input name="textfield2" type="text" id="textfield2" size="30" maxlength="60"></td>
-      <td width="313"><strong class="align-left">On a scale of 1-5, how would you rate my website?</strong></td>
-      <td width="246"><p>
+      <td height="25" class="align-center" scope="row">Last Name</td>
+      <td><input name="textfield2" type="text" id="textfield2" placeholder="e.g. Doe" size="30" maxlength="60"></td>
+      <td width="199">On a scale of 1-5, how would you rate my website?</td>
+      <td colspan="3"><p>
         <label>
           <input type="radio" name="1-5" value="1" id="1-5_0">
           1</label>
@@ -77,31 +78,167 @@
       </p></td>
       </tr>
     <tr>
-      <th class="align-center" scope="row">Display Name (optional)</th>
-      <td><input name="textfield3" type="text" id="textfield3" size="30" maxlength="60"></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td height="50" class="align-center" scope="row">Display Name (optional)</td>
+      <td><input name="textfield4" type="text" id="textfield4" placeholder="e.g. JasonDoveXBL" size="30" maxlength="60"></td>
+      <td>How did you view this website?</td>
+      <td colspan="3"><p>
+        <label>
+          <input type="checkbox" name="view" value="desktop" id="view_0">
+          Desktop</label>
+        <label>
+          <input type="checkbox" name="view" value="laptop" id="view_1">
+          Laptop</label>
+        <label>
+          <input type="checkbox" name="view" value="phone" id="view_2">
+          Phone</label>
+        <br>
+        <label>
+          <input type="checkbox" name="view" value="other" id="view_3">
+          other (Please specify below)</label>
+        <br>
+      </p></td>
     </tr>
     <tr>
-      <th scope="row">&nbsp;</th>
-      <td>&nbsp;</td>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-      <th scope="row">&nbsp;</th>
-      <td>&nbsp;</td>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-      <th scope="row">&nbsp;</th>
-      <td>&nbsp;</td>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-      <th colspan="4" scope="row"><hr size="5"></th>
+      <td height="50" class="align-center" scope="row">How did you find out about this website?</td>
+      <td colspan="5"><p>
+        <label>
+          <input type="checkbox" name="findout" value="friend" id="findout_0">
+          Friend</label>
+        <label>
+          <input type="checkbox" name="findout" value="coworker" id="findout_1">
+          Co-worker</label>
+        <label>
+          <input type="checkbox" name="findout" value="chance" id="findout_2">
+          By chance
+        </label>
+        <label>
+          <input type="checkbox" name="view" value="other" id="findout_3">
+          other (Please specify below)</label>
+        <br>
+      </p></td>
       </tr>
     <tr>
-      <th colspan="4" scope="row"><input type="submit" name="submit" id="submit" value="Submit">
+      <td class="align-center" scope="row">What pages did you specifically like or dislike?</td>
+      <td>1)
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Home<br>
+          2)
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+          Family<br>
+          3)
+          <input type="checkbox" name="checkbox3" id="checkbox3">
+          Spotlight<br>
+          4)
+          <input type="checkbox" name="checkbox4" id="checkbox4">
+          Carrer<br>
+          5)
+          <input type="checkbox" name="checkbox5" id="checkbox5">
+          Review<br>
+          6)
+          <input type="checkbox" name="checkbox6" id="checkbox6">
+          Survey
+          </label>
+        <br>
+        7)
+        <input type="checkbox" name="checkbox7" id="checkbox7">
+        <label for="checkbox7">Favorites<br>
+          8)
+            <input type="checkbox" name="checkbox8" id="checkbox8">
+          Cause<br>
+          </label></td>
+      <td><p>
+        <label>1)
+          <input type="radio" name="Home" value="like" id="Home_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Home" value="dislike" id="Home_1">
+          Dislike</label>
+        <br>
+        <label>
+          2)
+          <input type="radio" name="Family" value="like" id="Family_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Family" value="dislike" id="Family_1">
+          Dislike</label>
+        <br>
+        <label>
+          3)
+          <input type="radio" name="Spotlight" value="like" id="Spotlight_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Spotlight" value="dislike" id="Spotlight_1">
+          Dislike</label>
+        <br>
+        <label>
+          4)
+          <input type="radio" name="Career" value="like" id="Career_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Career" value="dislike" id="Career_1">
+          Dislike</label>
+        <br>
+        5)
+        <label>
+          <input type="radio" name="Review" value="like" id="Review_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Review" value="dislike" id="Review_1">
+          Dislike</label>
+        <br>
+        6)
+        <label>
+          <input type="radio" name="Survey" value="like" id="Survey_0">
+          Like</label>
+        <label>
+          <input type="radio" name="Survey" value="dislike" id="Survey_1">
+          Dislike</label>
+        <br>
+      7)
+      <label>
+        <input type="radio" name="Favorites" value="like" id="Favorites_0">
+        Like</label>
+      <label>
+        <input type="radio" name="Favorites" value="Dislike" id="Favorites_1">
+        Dislike</label>
+      <br>
+      <label>
+        8)
+        <input type="radio" name="Cause" value="like" id="Cause_0">
+        Like</label>
+      <label>
+        <input type="radio" name="Cause" value="dslike" id="Cause_1">
+        Dislike</label>
+      <br>
+      </p></td>
+      <td colspan="3"><p>Want to go more into detail?<br>
+        Type any specifics here:</p>
+        <p>
+          <textarea name="textarea" cols="44" rows="3" id="textarea" placeholder="e.g. Don't have (page name) be so cluttered"></textarea>
+        </p></td>
+    </tr>
+    <tr>
+      <td colspan="3" scope="row">If you've read and completed this entire form, then congrats! You get a cookie! Just click the dropdown to choose what kind you want! (totally legit)</td>
+      <th width="119" scope="row"><select name="select" id="select">
+        <option value="oreo">Oreo</option>
+          <option value="thinmint">Thin Mint</option>
+          <option value="c-chip">chocolate chip</option>
+          <option value="pnutbutter">peanutbutter</option>
+          <option value="fortune">fortune</option>
+          <option value="macaroon">macaroon</option>
+          <option value="snickerdoodle">snickerdoodle</option>
+      </select></th>
+      <th width="88" scope="row"><img src="assets/cookie.png" width="50" height="50" alt=""/></th>
+      <th width="89" scope="row">&nbsp;</th>
+    </tr>
+    <tr>
+      <th colspan="6" scope="row"><hr size="5"></th>
+    </tr>
+    <tr>
+      <th scope="row">&nbsp;</th>
+      <th scope="row">&nbsp;</th>
+      <th scope="row">&nbsp;</th>
+      <th colspan="3" scope="row"><input type="submit" name="submit" id="submit" value="Submit">
         <input type="reset" name="reset" id="reset" value="Reset"></th>
     </tr>
   </tbody>
