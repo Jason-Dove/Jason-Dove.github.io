@@ -225,6 +225,27 @@ h3 {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     text-align: left;
 }
+#Daily {
+	background-image: url("assets/dailyLife.jpg");
+	background-repeat: round;
+	text-shadow: 2px 2px 2px blue;
+	border-top: 7px groove #3747E5;
+	border-bottom: 7px ridge #3747E5;
+}
+#Deadly {
+	background-image: url("assets/deadlyLife.jpg");
+	background-repeat: round;
+	text-shadow: 2px 2px 2px purple;
+	border-top: 7px groove darkred;
+	border-bottom: 7px ridge darkred;
+}
+#trial {
+	background-image: url("assets/classtrial.jpg");
+	background-repeat: round;
+	text-shadow: 1px 1px 2px white;
+	border-top: 7px groove #FF9B00;
+	border-bottom: 7px ridge #FF9B00;
+}
 /* all classes go here */
 
 .body_text {
@@ -251,7 +272,8 @@ h3 {
 	border: 3px solid black;
 }
 .caption {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: left;
 }
 .listUnordered {
 	list-style-type: none;
