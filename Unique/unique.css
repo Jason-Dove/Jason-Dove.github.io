@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(assets/finalBodyBackground.jpg);
+	background-attachment: fixed;
+	background-position: center;
+}
+h1 {
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+#body {
+	position: absolute;
+	width: 1300px;
+	background-image: url("assets/bodyContentBackground.jpg");
+	background-repeat: repeat-y;
+	top: 400px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border:5px solid black;
+	border-top: none;
+	border-bottom: none;
+	text-align: left;
+}
+#navbar {
+	overflow: hidden;
+	transition: .3s;
+}
+#navbar:hover {
+	background-color: #00A6F7;
+	transition: .3s;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar a.link:hover {
+	background-color: #00FFFF;
+	transition: .3s;
+}
+.body_text {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	margin: 10px;
+}
+.mainBanner {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.img_float_left {
+	float: left;
+	margin: 20px;
+	
+}
+.img_float_left_border {
+	float: left;
+	margin: 20px;
+	border: 3px solid black;
+}
+.borderSolid {
+	border: 3px solid black;
+}
+.img_float_right {
+	float: right;
+	margin: 20px;
+}
+.img_float_right_border {
+	float: right;
+	margin: 20px;
+	border: 3px solid black;
+}
