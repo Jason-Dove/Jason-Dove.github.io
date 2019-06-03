@@ -4,43 +4,55 @@ body {
 	background-image: url(assets/finalBodyBackground.jpg);
 	background-attachment: fixed;
 	background-position: center;
+	backgrund-repeat: round;
 }
 h1 {
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 45px;
 	
 }
+h2 {
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+}
 #body {
-	position: absolute;
 	width: 1300px;
 	background-image: url("assets/bodyContentBackground.jpg");
 	background-repeat: repeat-y;
 	top: 400px;
 	left: 0;
 	right: 0;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	border:5px solid black;
-	border-top: none;
 	border-bottom: none;
 	text-align: left;
 }
 #navbar {
 	overflow: hidden;
 	transition: .3s;
+	text-shadow: 1px 1px 2px black;
 }
 #navbar:hover {
 	background-color: #00A6F7;
 	transition: .3s;
+	text-shadow: none;
 }
 #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 #navbar a.link:hover {
 	background-color: #00FFFF;
@@ -77,4 +89,12 @@ h1 {
 	float: right;
 	margin: 20px;
 	border: 3px solid black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 50px;
 }
