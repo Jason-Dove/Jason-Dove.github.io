@@ -24,13 +24,20 @@ h2 {
 	top: 400px;
 	left: 0;
 	right: 0;
-	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	border:5px solid black;
 	border-bottom: none;
 	text-align: left;
+}
+#body a {
+	color: blue;
+	transition: .2s;
+}
+#body a:hover {
+	color: aqua;
+	transition: .2s;
 }
 #navbar {
 	overflow: hidden;
@@ -57,6 +64,31 @@ h2 {
 #navbar a.link:hover {
 	background-color: #00FFFF;
 	transition: .3s;
+}
+#darkhour {
+	background-image: url(assets/darkhourbackground.png);
+	background-repeat: round;
+	text-shadow: 1px 1px 2px #FF0000;
+}
+#tartarus {
+	background-image: url(assets/darkhourbackground.png);
+	background-repeat: round;
+	text-shadow: 1px 1px 2px #FF0000;
+}
+#moon {
+	background-image: url(assets/darkhourbackground.png);
+	background-repeat: round;
+	text-shadow: 1px 1px 2px #FF0000;
+}
+#strega {
+	background-image: url(assets/darkhourbackground.png);
+	background-repeat: round;
+	text-shadow: 1px 1px 2px #FF0000;
+}
+#betrayal {
+	background-image: url(assets/darkhourbackground.png);
+	background-repeat: round;
+	text-shadow: 1px 1px 2px #FF0000;
 }
 .body_text {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -102,7 +134,7 @@ h2 {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #00FF9B;
-  width: 540px;
+  width: 550px;
   margin: 0 auto;
   border-radius: 25px;
 }
@@ -133,4 +165,7 @@ h2 {
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+.caption {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
