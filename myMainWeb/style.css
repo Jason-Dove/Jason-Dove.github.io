@@ -1,0 +1,77 @@
+
+/*=== Main Tags ===*/
+body {
+   font-family: Verdana;
+   background-color: gray;
+  }
+  
+  /*=== ID Tags ===*/
+  #body {
+	width: 1300px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	padding: 16px;
+  }
+  
+  #mainBanner {
+  top: -25px;
+  background-image: url("assets/Jason Dove Main Banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25%;
+  border: 5px solid black;
+  }
+  
+  #navbar {
+  margin-left: 30px;
+  margin-right: 30px;
+	overflow: hidden;
+	transition: .3s;
+	text-shadow: 1px 1px 2px black;
+}
+  #navbar:hover {
+	background-color: #00A6F7;
+	transition: .3s;
+	text-shadow: 2px 2px 4px black;
+}
+  #navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+  #navbar a.link:hover {
+	background-color: #00FFFF;
+	transition: .3s;
+	color: black;
+}
+  /*=== Class Tags ===*/
+  .body_text {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	margin: 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 1240px;
+  margin-left: 30px;
+  margin-right: 30px;
+	transition: .3s;
+	text-shadow: 1px 1px 2px black;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
