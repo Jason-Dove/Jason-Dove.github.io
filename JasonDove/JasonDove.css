@@ -4,7 +4,13 @@
 /* General Tags */
 body {
 	font-family: Arial;
-	text-align: center;	
+	text-align: center;
+	background-image: url("Assets/tempBackground.gif");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-shadow: 2px 2px 2px black;
 }
 
 h2 {
@@ -42,6 +48,11 @@ nav ul li {
 	margin-bottom: -5px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+nav a {
+	color: black;
+	for;
 }
 
 

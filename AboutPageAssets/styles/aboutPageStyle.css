@@ -41,7 +41,7 @@ header .profileHeader h1 {
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
-	text-align: left;
+	
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
@@ -97,13 +97,13 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
 	background-color: rgba(208,207,207,1.00);
 	height: 1px;
-	padding: 0px;
+	margin-left: 22.5%;
 }
 .mainContent .section1 .section1Content {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(54,54,54,1.00);
+	color: rgba(179,179,179,1.00);
 	text-align: left;
 }
 .mainContent .section1 .section1Content span {
@@ -358,7 +358,7 @@ header .profileHeader {
 	padding-top: 10%;
 }
 header h1 {
-	text-align: left;	
+    text-align: center;
 	}
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
