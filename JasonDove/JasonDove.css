@@ -10,6 +10,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-shadow: 2px 2px 2px black;
+	
 }
 
 h2 {
@@ -87,6 +88,11 @@ nav a:hover {
 
 .note {
 	color: aqua;
+}
+
+.borderexample {
+ border-style:solid;
+ border-color:#287EC7;
 }
 
 /* ID's */
