@@ -4,7 +4,6 @@
 /* General Tags */
 body {
 	font-family: Arial;
-	text-align: center;
 	background-image: url("Assets/tempBackground.gif");
 	background-position: center;
 	background-attachment: fixed;
@@ -25,6 +24,15 @@ h1 {
 	z-index: 1;
 }
 
+h3 {
+    z-index: 1;
+    
+}
+
+h4 {
+	text-align: left;
+		
+}
 nav {
 	font-family: Segoe Script;
 	display: block;
@@ -52,7 +60,13 @@ nav ul li {
 
 nav a {
 	color: black;
-	for;
+	text-decoration: none;
+	transition: .3s;
+}
+
+nav a:hover {
+	color: blue;
+	transition: .3s;
 }
 
 
@@ -64,8 +78,16 @@ nav a {
 	background-color: black;
 }
 
+.form {
+	font-family: Segoe Script;
+	text-align: center;
+	z-index: 1;
+	color: black;
+}
 
-
+.note {
+	color: aqua;
+}
 
 /* ID's */
 
